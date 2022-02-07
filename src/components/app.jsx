@@ -7,7 +7,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      flats = []
+      selectedflats: flats[0],
+      flats
     }
 
   }
